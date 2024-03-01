@@ -13,12 +13,15 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+  <body id="body">
     <header class="header">
       <div class="container">
         <div class="header__top">
-          <a class="header__logo" href="#">
-            <img src="images/logo.svg" alt="Логотип">
+          <a class="header__logo" href="#body">
+            <svg width="60" height="63" viewBox="0 0 60 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11.412 29.512H16.02L18.936 37.972L21.888 29.512H26.46L22.068 41.14L25.308 49.276L32.544 29.44H37.944L27.72 55H23.436L18.936 44.272L14.472 55H10.188L0 29.44H5.328L12.6 49.276L15.768 41.14L11.412 29.512Z" fill="white"/>
+              <path d="M33.412 8.512H38.02L40.936 16.972L43.888 8.512H48.46L44.068 20.14L47.308 28.276L54.544 8.44H59.944L49.72 34H45.436L40.936 23.272L36.472 34H32.188L22 8.44H27.328L34.6 28.276L37.768 20.14L33.412 8.512Z" fill="white"/>
+              </svg>
           </a>
           <nav class="header__nav">
             <button class="header__nav-btn">
@@ -30,22 +33,22 @@
             </button>
             <ul class="header__nav-list">
               <li>
-                <a class="header__nav-link" href="#" >О нас</a>
+                <a class="header__nav-link" href="#about" >О нас</a>
               </li>
               <li>
-                <a class="header__nav-link" href="#">Услуги</a>
+                <a class="header__nav-link" href="#services">Услуги</a>
               </li>
               <li>
-                <a class="header__nav-link"href="#">Стоимость</a>
+                <a class="header__nav-link"href="#price">Стоимость</a>
               </li>
               <li>
-                <a class="header__nav-link" href="#" >Блог</a>
+                <a class="header__nav-link" href="#blog" >Блог</a>
               </li>
               <li>
-                <a class="header__nav-link" href="#" >Команда</a>
+                <a class="header__nav-link" href="#team" >Команда</a>
               </li>
               <li>
-                <a class="header__nav-link" href="#">Контакты</a>
+                <a class="header__nav-link" href="#contacts">Контакты</a>
               </li>
             </ul>
           </nav>
@@ -59,7 +62,7 @@
         </div>
       </div>
     </header>
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <h2 class="title about__title">
           О  ШКОЛЕ, О СЕРФИНГЕ, О КАНАРАХ
@@ -77,7 +80,7 @@
         </div>
       </div>
     </section>
-    <section class="profit">
+    <section class="profit" id="services">
       <div class="container">
         <h2 class="title profit__title">
           В  ШКОЛЕ ВЫ ПОЛУЧИТЕ
@@ -215,7 +218,7 @@
         </div>
       </div>
     </section>
-    <section class="blog">
+    <section class="blog" id="blog">
       <div class="container">
         <h2 class="title blog__title">
           БЛОГ
@@ -308,7 +311,7 @@
         </div>
       </div>
     </section>
-    <section class="team">
+    <section class="team" id="team">
       <div class="container">
         <h2 class="title team__title">
           НАША КОМАНДА
@@ -332,7 +335,7 @@
         </div>
       </div>
     </section>
-    <section class="services">
+    <section class="services" id="price">
       <div class="container">
         <h2 class="title services__title">
           ПАКЕТЫ УСЛУГ
@@ -407,7 +410,7 @@
         <img src="images/map.jpg" alt="map">
       </div>
     </div>
-    <section class="contacts">
+    <section class="contacts" id="contacts">
       <div class="container">
         <h2 class="title contacts__title">
           ОСТАВИТЬ ЗАЯВКУ
@@ -444,7 +447,7 @@
       </div>
     </section>
     <footer class="footer">
-      <a class="footer__logo" href="#">
+      <a class="footer__logo" href="#body">
         <img src="images/logo.svg" alt="">
       </a>
     </footer>
